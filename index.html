@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231118160449">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a data-goto-header data-goto=".full-screen" href="#" class="header__logo menu__link">ЛИДЕР</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a data-goto-header data-goto=".schedule" href="#" class="menu__link">График</a>
+							</li>
+							<li class="menu__item"><a data-goto-header data-goto=".price" href="#" class="menu__link">Прокат</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".services" href="#" class="menu__link">Услуги</a>
+							</li>
+							<li class="menu__item"><a data-goto-header data-goto=".track" href="#" class="menu__link">Трассы</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".rules" href="#" class="menu__link">Правила</a>
+							</li>
+							<li class="menu__item"><a data-goto-header data-goto=".footer" href="#" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__full-screen full-screen">
+				<div class="full-screen__body">
+					<div class="full-screen__container">
+						<h1 class="full-screen__title-1">Добро пожаловать в «Картинг-Клуб Лидер» </h1>
+						<div class="full-screen__title-2">Уважаемые любители Активного образа жизни!
+							Для вас мы положили новый асфальт сейчас управлять картингом стало еще приятнее.</div>
+						<div class="full-screen__phones">
+							<p>тел: <a href="tel:379595">37-95-95</a>,</p>
+							<p> <a href="tel:89114548013">8-911-454-80-13</a></p>
+						</div>
+					</div>
+				</div>
+				<video autoplay muted loop preload="auto" class="full-screen__video">
+					<source type="video/webm" src="files/videos/liderFullPage.webm">
+					<source type="video/mp4" src="files/videos/liderFullPage.mp4">
+				</video>
+			</section>
+			<section class="page__schedule schedule">
+				<div class="schedule__container">
+					<div class="schedule__body">
+						<div class="schedule__up">
+							<div data-watch class="schedule__title">График работы</div>
+						</div>
+						<div class="schedule__down">
+							<div class="schedule__row">
+								<div data-watch class="schedule__column">
+									<div class="schedule__day">Пн:</div>
+									<div class="schedule__time">Выходной</div>
+								</div>
+								<div data-watch class="schedule__column">
+									<div class="schedule__day">Вт - Пт:</div>
+									<div class="schedule__time">c 12:00 до 19:00</div>
+								</div>
+								<div data-watch class="schedule__column">
+									<div class="schedule__day">Сб - Вс:</div>
+									<div class="schedule__time">с 12:00 до 19:00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__price price">
+				<div class="price__container">
+					<div class="price__row">
+						<div data-watch class="price__title">ПРОКАТ</div>
+						<div data-watch class="price__subtitle">Цена на картинге - это приятная инвестиция в активный и яркий
+							досуг,
+							который оставит незабываемые эмоции и впечатления.</div>
+					</div>
+					<div class="price__body">
+						<div class="price__nav">
+							<button data-watch class="price__nav-btn pressed" type="button" data-tab="#tab_1">9 л.с</button>
+							<button data-watch class="price__nav-btn " type="button" data-tab="#tab_2">Детский</button>
+							<button data-watch class="price__nav-btn " type="button" data-tab="#tab_3">Клубная</button>
+							<button data-watch class="price__nav-btn " type="button" data-tab="#tab_4">13 л.с</button>
+							<button data-watch class="price__nav-btn " type="button" data-tab="#tab_5"> </button>
+						</div>
+						<div class="price__content">
+							<div class="price__tab pressed" id="tab_1">
+								<div class="item-price">
+									<div class="item-price__column-left">
+										<ul class="item-price__list">
+											<li class="item-price__item">Минимальный рост - <span>150см</span></li>
+											<li class="item-price__item">В возрасте от <span>16 лет</span></li>
+											<li class="item-price__item">Время заезда - <span>10 минут</span></li>
+										</ul>
+										<div class="item-price__costs">
+											<div class="item-price__cost">
+												<div class="item-price__day">По будням</div>
+												<div class="item-price__value">800 ₽</div>
+											</div>
+											<div class="item-price__cost">
+												<div class="item-price__day">По выходным</div>
+												<div class="item-price__value">900 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-price__column-right">
+										<div class="item-price__image-ibg">
+											<picture><source srcset="img/price/car02.webp" type="image/webp"><img src="img/price/car02.png" alt="Car"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="price__tab" id="tab_2">
+								<div class="price__item item-price">
+									<div class="item-price__column-left">
+										<ul class="item-price__list">
+											<li class="item-price__item">Минимальный рост - <span>130см</span></li>
+											<li class="item-price__item">В возрасте от <span>7 лет</span></li>
+											<li class="item-price__item">Время заезда - <span>10 минут</span></li>
+										</ul>
+										<div class="item-price__costs">
+											<div class="item-price__cost">
+												<div class="item-price__day">По будням</div>
+												<div class="item-price__value">700 ₽</div>
+											</div>
+											<div class="item-price__cost">
+												<div class="item-price__day">По выходным</div>
+												<div class="item-price__value">800 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-price__column-right">
+										<div class="item-price__image-ibg">
+											<picture><source srcset="img/price/car01.webp" type="image/webp"><img src="img/price/car01.png" alt="Car"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="price__tab" id="tab_3">
+								<div class="item-price">
+									<div class="item-price__column-left">
+										<ul class="item-price__list">
+											<li class="item-price__item">Минимальный возраст - <span>18 лет</span></li>
+											<li class="item-price__item">Максимальный вес - <span>120 кг</span></li>
+											<li class="item-price__item">Время заезда - <span>10 минут</span></li>
+										</ul>
+										<div class="item-price__costs">
+											<div class="item-price__cost">
+												<div class="item-price__day">По будням</div>
+												<div class="item-price__value">1000 ₽</div>
+											</div>
+											<div class="item-price__cost">
+												<div class="item-price__day">По выходным</div>
+												<div class="item-price__value">1100 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-price__column-right">
+										<div class="item-price__image-ibg">
+											<picture><source srcset="img/price/car03.webp" type="image/webp"><img src="img/price/car03.png" alt="Car"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="price__tab" id="tab_4">
+								<div class="item-price">
+									<div class="item-price__column-left">
+										<ul class="item-price__list">
+											<li class="item-price__item">Минимальный возраст - <span>18 лет</span></li>
+											<li class="item-price__item">Максимальный вес - <span>120 кг</span></li>
+											<li class="item-price__item">Время заезда - <span>10 минут</span></li>
+										</ul>
+										<div class="item-price__costs">
+											<div class="item-price__cost">
+												<div class="item-price__day">По будням</div>
+												<div class="item-price__value">1000 ₽</div>
+											</div>
+											<div class="item-price__cost">
+												<div class="item-price__day">По выходным</div>
+												<div class="item-price__value">1100 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-price__column-right">
+										<div class="item-price__image-ibg">
+											<picture><source srcset="img/price/car04.webp" type="image/webp"><img src="img/price/car04.png" alt="Car"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="price__tab" id="tab_5">
+								<div class="item-price">
+									<div class="item-price__column-left">
+										<ul class="item-price__list">
+											<li class="item-price__item">Мин. возраст 1-го пилота - <span>18 лет</span>
+											</li>
+											<li class="item-price__item">Возраст 2-го пилота - <span>3 - 6 лет</span>
+											</li>
+											<li class="item-price__item">Время заезда - <span>10 минут</span></li>
+										</ul>
+										<div class="item-price__costs">
+											<div class="item-price__cost">
+												<div class="item-price__day">По будням</div>
+												<div class="item-price__value">800 ₽</div>
+											</div>
+											<div class="item-price__cost">
+												<div class="item-price__day">По выходным</div>
+												<div class="item-price__value">900 ₽</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-price__column-right">
+										<div class="item-price__image-ibg">
+											<picture><source srcset="img/price/car05.webp" type="image/webp"><img src="img/price/car05.png" alt="Car"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="price__text">
+								В дождливую погоду, при прокате на улице скидка 15%* Скидка имениннику и его компании в день
+								рождения 10%* При оплате 10 или более заездов единовременно 10%* Скидки не распространяются на
+								аренду и не суммируются
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services services">
+				<div class="services__container">
+					<div class="services__header">
+						<div data-watch class="services__title">УCЛУГИ</div>
+					</div>
+					<div class="services__body">
+						<div class="services__nav">
+							<button data-watch class="services__nav-btn pressed" type="button" data-tab="#tab_6">Аренда</button>
+							<button data-watch class="services__nav-btn " type="button" data-tab="#tab_7">Обучение</button>
+							<button data-watch class="services__nav-btn " type="button" data-tab="#tab_8">Мастер класс</button>
+							<button data-watch class="services__nav-btn " type="button" data-tab="#tab_9">Сертификат</button>
+						</div>
+						<div class="services__content">
+							<div class="services__tab pressed" id="tab_6">
+								<div class="item-services">
+									<div class="item-services__rent">
+										<div class="item-services__column-left">
+											<div class="item-services__table">
+												<div class="item-services__columns">
+													<div class="item-services__column">
+														<div class="item-services__top">
+															<div class="item-services__period">1 час</div>
+														</div>
+														<ul class="item-services__bottom">
+															<li class="item-services__power">6,5 л.с</li>
+															<li class="item-services__power">9 л.с</li>
+															<li class="item-services__power">Детские</li>
+														</ul>
+													</div>
+													<div class="item-services__column">
+														<div class="item-services__top">
+															<div class="item-services__period">будни</div>
+														</div>
+														<ul class="item-services__bottom">
+															<li class="item-services__price">16 000 р</li>
+															<li class="item-services__price">18 000 р</li>
+															<li class="item-services__price">16 000 р</li>
+														</ul>
+													</div>
+													<div class="item-services__column">
+														<div class="item-services__top">
+															<div class="item-services__period">выходные</div>
+														</div>
+														<ul class="item-services__bottom">
+															<li class="item-services__price">18 000 р</li>
+															<li class="item-services__price">20 000 р</li>
+															<li class="item-services__price">18 000 р</li>
+														</ul>
+													</div>
+												</div>
+												<div class="item-services__text">Предоплата 50%. При заказе в нерабочее время плюс
+													15% к стоимости. В стоимость аренды включены 5 машин.</div>
+											</div>
+										</div>
+										<div class="item-services__column-right">
+											<div class="item-services__image-ibg">
+												<picture><source srcset="img/service/rent.webp" type="image/webp"><img src="img/service/rent.jpg" alt="rent"></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__tab" id="tab_7">
+								<div class="item-education">
+									<div class="item-education__education">
+										<div class="item-education__column-left">
+											<div class="item-education__table">
+												<div class="item-education__columns">
+													<div class="item-education__column">
+														<div class="item-education__top">
+															<div class="item-education__title">Обучение</div>
+														</div>
+														<ul class="item-education__bottom">
+															<li class="item-education__years">Младшая группа</li>
+															<li class="item-education__years">Старшая группа</li>
+														</ul>
+													</div>
+													<div class="item-education__column">
+														<div class="item-education__top">
+															<div class="item-education__title">Цена</div>
+														</div>
+														<ul class="item-education__bottom">
+															<li class="item-education__price-rub">2200 р</li>
+															<li class="item-education__price-rub">2500 р</li>
+														</ul>
+													</div>
+													<div class="item-education__column">
+														<div class="item-education__top">
+															<div class="item-education__title">В воскресенье</div>
+														</div>
+														<ul class="item-education__bottom">
+															<li class="item-education__day-time">c 10:00 до 11:30</li>
+															<li class="item-education__day-time">c 10:00 до 11:30</li>
+														</ul>
+													</div>
+												</div>
+												<div class="item-education__text">Допускаются дети с 7 лет, ростом более 130см.
+												</div>
+											</div>
+										</div>
+										<div class="item-education__column-right">
+											<div class="item-education__image-ibg">
+												<picture><source srcset="img/service/education.webp" type="image/webp"><img src="img/service/education.jpg" alt="education"></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__tab" id="tab_8">
+								<div class="item-master">
+									<div class="item-master__master">
+										<div class="item-master__column-left">
+											<div class="item-master__table">
+												<div class="item-master__top">
+													<div class="item-master__title">Мастер класс</div>
+													<div class="item-master__subtitle">занятие - 60 мин.</div>
+												</div>
+												<div class="item-master__columns">
+													<ul class="item-master__column">
+														<li class="item-master__power">6,5 л.с</li>
+														<li class="item-master__power">9 л.с</li>
+														<li class="item-master__power">9 л.с</li>
+													</ul>
+													<ul class="item-master__column">
+														<li class="item-master__price">4 000 р</li>
+														<li class="item-master__price">5 000 р</li>
+														<li class="item-master__price">6 000 р</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="item-master__column-right">
+											<div class="item-master__image-ibg">
+												<picture><source srcset="img/service/master.webp" type="image/webp"><img src="img/service/master.JPEG" alt="master"></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="services__tab" id="tab_9">
+								<div class="item-certificate">
+									<div class="item-certificate__certificate">
+										<div class="item-certificate__column-left">
+											<div class="item-certificate__table">
+												<div class="item-certificate__top">
+													<div class="item-certificate__title">Подарочный сертификат</div>
+													<div class="item-certificate__subtitle">на 2 заезда по 10 мин.</div>
+												</div>
+												<div class="item-certificate__columns">
+													<ul class="item-certificate__column">
+														<li class="item-certificate__power">6,5 л.с</li>
+														<li class="item-certificate__power">9 л.с</li>
+														<li class="item-certificate__power">9 л.с</li>
+													</ul>
+													<ul class="item-certificate__column">
+														<li class="item-certificate__price">1 800 р</li>
+														<li class="item-certificate__price">2 000 р</li>
+														<li class="item-certificate__price">2 5000 р</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="item-certificate__column-right">
+											<div class="item-certificate__image-ibg">
+												<picture><source srcset="img/service/certificate.webp" type="image/webp"><img src="img/service/certificate.JPEG" alt="certificate"></picture>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__track track">
+				<div class="track__container">
+					<div class="track__header header-track">
+						<div data-watch class="header-track__title">ТРАССЫ</div>
+						<div data-watch class="header-track__subtitle">Мы представляем вам две захватывающие трассы, где
+							адреналину и
+							скорости нет предела!</div>
+					</div>
+					<div class="track__columns columns-track">
+						<div class="columns-track__column">
+							<div data-watch class="columns-track__image-ibg">
+								<picture><source srcset="img/track/trackBig.webp" type="image/webp"><img src="img/track/trackBig.png" alt="Track"></picture>
+							</div>
+							<div data-watch class="columns-track__title">Открытая трасса</div>
+						</div>
+						<div class="columns-track__column">
+							<div data-watch class="columns-track__image-ibg">
+								<picture><source srcset="img/track/trackSmall.webp" type="image/webp"><img src="img/track/trackSmall.png" alt="Track"></picture>
+							</div>
+							<div data-watch class="columns-track__title">Крытая трасса</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__rules rules">
+				<div class="rules__container">
+					<div class="rules__columns">
+						<div data-watch class="rules__video">
+							<video poster="img/forVideo/lider.jpg" controls preload="metadata">
+								<source type="video/mp4" src="files/videos/rule.mp4">
+							</video>
+						</div>
+						<div class="rules__text text-rule">
+							<div data-watch class="text-rule__title">Мы за вашу </div>
+							<div data-watch class="text-rule__subtitle">Безопасность</div>
+							<div data-watch class="text-rule__description">В захватывающем видео-путеводителе по безопасности
+								на картинге
+								мы предоставим вам все необходимые знания и навыки для защиты себя и других участников во время
+								гонок. Наша цель - обеспечить вам полную уверенность и комфорт на треке, чтобы вы могли
+								наслаждаться адреналином и скоростью, не заботясь о возможных рисках.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__gallery gallery">
+				<div class="gallery__container">
+					<div class="gallery__body">
+						<div class="gallery__slider swiper">
+							<div class="gallery__wrapper swiper-wrapper">
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo01.webp" type="image/webp"><img src="img/photos/photo01.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo02.webp" type="image/webp"><img src="img/photos/photo02.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo03.webp" type="image/webp"><img src="img/photos/photo03.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo04.webp" type="image/webp"><img src="img/photos/photo04.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo05.webp" type="image/webp"><img src="img/photos/photo05.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<article class="item-gallery">
+										<div data-watch class="item-gallery__image-ibg">
+											<picture><source srcset="img/photos/photo06.webp" type="image/webp"><img src="img/photos/photo06.jpg" alt="Picture"></picture>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+						<div class="gallery__controls">
+							<button type="button" class="gallery__arrow swiper-button-prev _icon-rewind"></button>
+							<button type="button" class="gallery__arrow swiper-button-next _icon-forward"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__column">
+						<div class="footer__item">
+							<div class="footer__title">ЛИДЕР</div>
+							<div class="footer__icon-small">
+								<a href="https://vk.com/kartlider" target="_blank" class="footer__icon _icon-vk"></a>
+								<a href="https://www.instagram.com/kartlider/" target="_blank" class="footer__icon _icon-inst"></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__item">
+							<div class="footer__icons-big">
+								<a href="https://yandex.ru/maps/22/kaliningrad/?ll=20.628542%2C54.706589&mode=routes&rtext=~54.706108%2C20.627771&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D1096910017&z=16" target="_blank" class=" footer__icon-big _icon-geoLoc"></a>
+							</div>
+							<div class="footer__subtitle">Гурьевский район <br> пос.Прибрежное.Переулок <br> Западный 1а</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="footer__item">
+							<div class="footer__icons-big">
+								<a href="tel:379595" class="footer__icon-big _icon-phone"></a>
+							</div>
+							<div class="footer__phones">
+								<a href="tel:379595">37-95-95</a> <br>
+								<a href="tel:89114548013">8-911-454-80-13</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231118160449"></script>
+</body>
+
+</html>
